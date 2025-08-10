@@ -118,15 +118,17 @@ It combines Bayesian optimization with the sampling of uncertainity to iterative
 ## Installation Guide
 
 Install all dependies via pip:
-`` bash
-pip install numpy ijson xgboost optuna scikit-learn scipy seaborn shap matplotlib joblib torch botorch gpytorch flask ``
+``` bash
+pip install numpy ijson xgboost optuna scikit-learn scipy seaborn shap matplotlib joblib torch botorch gpytorch flask
+```
 • For GPU acceleartion with PyTorch, visit official [Pytorch website](https://pytorch.org/get-started/locally/) to install the CUDA-enabled version.
 
 ### Clone the repository
 
-``bash
+```bash
 https://github.com/Sakura-hack01/Materials-Discovery.git
-cd Materials-Discovery``
+cd Materials-Discovery
+```
 
 ### Running the application
 We use flask here for web-based application, this is used when we use flask in CLI :-
