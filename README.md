@@ -29,8 +29,8 @@ This datatset contains structured data designed to train, evaluate, and validate
 
 • Formula :- Molecular formula of materials.
 
-• Spacegroup :- space group of crystal structure, which defines its symmetry properties based on International Tables for Crystallography.
+• Spacegroup :- space group of crystal structure, which defines its symmetry properties based on                 International Tables for Crystallography.
 
 • nelements :- number of distinct elements in compund.
 
-• n_sites :- total  number of atomic sites in crystal's unit cell (inclding repeated atoms due to symmetry).
+• n_sites :- total  number of atomic sites in crystal's unit cell (inclding repeated atoms due                to symmetry).
