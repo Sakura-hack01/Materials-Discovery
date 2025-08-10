@@ -8,17 +8,17 @@ The project presents an end-to-end machine learning and active learning framewor
 
 ## Table of Contents
 
-• [Project Overview](#project_overview)
+• [Project Overview](#project Overview)
 
-• [Dataset Description](#Dataset_Description)
+• [Dataset Description](#Dataset Description)
 
-• [Code Overview](#Code_Overview)
+• [Code Overview](#Code Overview)
 
-• [Technologies Used](#Technologies_used)
+• [Technologies Used](#Technologies Used)
 
-• [Installation Guide](#Installation_guide)
+• [Installation Guide](#Installation_Guide)
 
-• [Folder Structure](#Folder_Structure)
+• [Folder Structure](#Folder Structure)
 
 • [LICENSE](#LICENSE)
 
