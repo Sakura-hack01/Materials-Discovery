@@ -78,8 +78,27 @@ In this section, handles the missing values,performs feature engineering, outlie
 
 Here,the use of XGBoost with Optuna for hyperparameter tuning to minimize MSE and evaluate with R² score.Includes SHAP explainability to initerpret feature importance.
 
-![Summary Plot](ML modelling/output.png)
+![Summary Plot](https://github.com/Sakura-hack01/Materials-Discovery/blob/22a901ebb80f99e04369938882e84c25c7bf57b5/ML%20modelling/output.png)
 • Hyperparameters are optimized to improve predictive accuracy, while SHAP identifies most impactful features.
 
-### 
+### Bayesian Optimization
 
+It leverages BoTorch and GPyTorch to suggest top candidate based on Expected Improvement (EI).
+
+![Acquition function plot](https://github.com/Sakura-hack01/Materials-Discovery/blob/22a901ebb80f99e04369938882e84c25c7bf57b5/Bayesian%20Optimization/output.png)
+• This identifies most promising unexplored candidates, aiding target experimentation.
+
+### Uncertainity- Aware Deep Learning Model
+
+It implements a heteroscedastic neural network ensemble to predict both mean, variance of outputs, enabling uncertainity quantification.
+
+### Active Learning
+
+It combines Bayesian optimization with the sampling of uncertainity to iteratively select and label most informative data points.
+
+![Active learning iteration visualization](https://github.com/Sakura-hack01/Materials-Discovery/blob/22a901ebb80f99e04369938882e84c25c7bf57b5/Active%20Learning/output1.png)
+![Active learning iteration visualization](https://github.com/Sakura-hack01/Materials-Discovery/blob/22a901ebb80f99e04369938882e84c25c7bf57b5/Active%20Learning/output2.png)
+![Active learning iteration visualization](https://github.com/Sakura-hack01/Materials-Discovery/blob/22a901ebb80f99e04369938882e84c25c7bf57b5/Active%20Learning/output3.png)
+![Active learning iteration visualization](https://github.com/Sakura-hack01/Materials-Discovery/blob/22a901ebb80f99e04369938882e84c25c7bf57b5/Active%20Learning/output4.png)
+![Active learning iteration visualization](https://github.com/Sakura-hack01/Materials-Discovery/blob/22a901ebb80f99e04369938882e84c25c7bf57b5/Active%20Learning/output5.png)
+• It reduces labeling costs and accelerates learning by focusing on uncertain and high value samples.
