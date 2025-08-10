@@ -71,4 +71,4 @@ In this section, there is complete machine learning workflow for material proper
 
 In this section, handles the missing values,performs feature engineering, outlier removal, categorical encoding, feature scaling, and correlation visualization.
 
-
+![Correlation Heatmap](https://github.com/Sakura-hack01/Materials-Discovery/blob/66384592f8eed44dd635881d2dfa187e6e3ca2a6/Preprocessed%20Dataset/output.png)
