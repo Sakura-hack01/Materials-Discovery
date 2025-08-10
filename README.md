@@ -8,17 +8,19 @@ The project presents an end-to-end machine learning and active learning framewor
 
 ## Table of Contents
 
-• Project Overview
+• [Project Overview](#project_overview)
 
-• Dataset Description
+• [Dataset Description](#Dataset_Description)
 
-• Code Overview
+• [Code Overview](#Code_Overview)
 
-•
+• [Technologies Used](#Technologies_used)
 
-•
+• [Installation Guide](#Installation_guide)
 
-•
+• [Folder Structure](#Folder_Structure)
+
+• [LICENSE](#LICENSE)
 
 
 ## Dataset Description
@@ -102,3 +104,98 @@ It combines Bayesian optimization with the sampling of uncertainity to iterative
 ![Active learning iteration visualization](https://github.com/Sakura-hack01/Materials-Discovery/blob/22a901ebb80f99e04369938882e84c25c7bf57b5/Active%20Learning/output4.png)
 ![Active learning iteration visualization](https://github.com/Sakura-hack01/Materials-Discovery/blob/22a901ebb80f99e04369938882e84c25c7bf57b5/Active%20Learning/output5.png)
 • It reduces labeling costs and accelerates learning by focusing on uncertain and high value samples.
+
+
+## Technologies Used
+
+• Python : version 3.9-3.11
+
+• GPU : optional but recommended for deep learning components
+
+• Libraries and Frameworks : numpy, pandas, matplotlib, seaborn, scikit-learn, joblib, os, torch, ijson, xgboost, optuna, shap, botorch, gpytorch, flask
+
+
+## Installation Guide
+
+Install all dependies via pip:
+`` bash
+pip install numpy ijson xgboost optuna scikit-learn scipy seaborn shap matplotlib joblib torch botorch gpytorch flask ``
+• For GPU acceleartion with PyTorch, visit official [Pytorch website](https://pytorch.org/get-started/locally/) to install the CUDA-enabled version.
+
+### Clone the repository
+
+``bash
+https://github.com/Sakura-hack01/Materials-Discovery.git
+cd Materials-Discovery``
+
+### Running the application
+We use flask here for web-based application, this is used when we use flask in CLI :-
+``bash
+flask run``
+If in bash we go with :-
+``bash
+python app.py``
+
+
+## Folder Structure
+
+```
+Materials-Discovery
+|
+|___Dataset
+|   |
+|   |__dataset.csv
+|___Preprocessed Dataset
+|   |
+|   |__link_of_preprocessed_dataset.csv
+|   |
+|   |__preprocess_pipeline.py
+|   |
+|   |__output.png
+|
+|___ML modelling
+|   |
+|   |__modelling.py
+|   |__output.png
+|
+|___Uncertainity-aware Deep Learning Model
+|   |
+|   |__uncertainity.py
+|   
+|___Bayesian Optimization
+|   |
+|   |__bayesian.py
+|   |
+|   |__output.png
+|
+|___Active Learning
+|   |
+|   |__active_learning.py
+|   |
+|   |__output1.png
+|   |
+|   |__output2.png
+|   | 
+|   |__output3.png
+|   | 
+|   |__output4.png
+|   | 
+|   |__output5.png
+|   | 
+|   |__output6.png
+|   | 
+|   |__output7.png
+|   | 
+|   |__output8.png
+|   | 
+|   |__output9.png
+|   | 
+|   |__output10.png
+|
+|___app.py
+```
+
+
+## License
+
+This project is lincensed under MIT License - see the [LICENSE](LICENSE) file for details.
