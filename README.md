@@ -132,11 +132,15 @@ cd Materials-Discovery
 
 ### Running the application
 We use flask here for web-based application, this is used when we use flask in CLI :-
-``bash
-flask run``
+```
+bash
+flask run
+```
 If in bash we go with :-
-``bash
-python app.py``
+```
+bash
+python app.py
+```
 
 
 ## Folder Structure
