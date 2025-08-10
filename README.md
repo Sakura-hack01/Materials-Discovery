@@ -12,7 +12,7 @@ The project presents an end-to-end machine learning and active learning framewor
 
 • Dataset Description
 
-• 
+• Code Overview
 
 •
 
@@ -58,3 +58,17 @@ This datatset contains structured data designed to train, evaluate, and validate
                                   on structural distortions or defects.
 
 • ``volume_deviation        ``:- percentage deviation between calculated ** volume_per_atom and                                    expected atomic_volume_per_atom .It indicates strain, lattice                                    distortion, or non-ideal packing.
+
+### Dataset    :- https://figshare.com/articles/dataset/CFID_OQMD_460k/13055333?file=24981170
+
+
+## Code Overview
+
+In this section, there is complete machine learning workflow for material property prediction, from preprocessing, through model training, hyperparameter optimization, uncertainity quantification, and active learning with Bayesian optimization.
+
+
+### Preprocessing
+
+In this section, handles the missing values,performs feature engineering, outlier removal, categorical encoding, feature scaling, and correlation visualization.
+
+
