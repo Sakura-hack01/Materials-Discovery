@@ -62,7 +62,7 @@ This datatset contains structured data designed to train, evaluate, and validate
 ### Dataset    :- https://figshare.com/articles/dataset/CFID_OQMD_460k/13055333?file=24981170
 
 
-## Code Overview
+## Workflow Overview
 
 In this section, there is complete machine learning workflow for material property prediction, from preprocessing, through model training, hyperparameter optimization, uncertainity quantification, and active learning with Bayesian optimization.
 
@@ -72,3 +72,14 @@ In this section, there is complete machine learning workflow for material proper
 In this section, handles the missing values,performs feature engineering, outlier removal, categorical encoding, feature scaling, and correlation visualization.
 
 ![Correlation Heatmap](https://github.com/Sakura-hack01/Materials-Discovery/blob/66384592f8eed44dd635881d2dfa187e6e3ca2a6/Preprocessed%20Dataset/output.png)
+• This image shows that dataset is cleaned, normalilized, and transformed for optimal model performance.
+
+### ML modelling
+
+Here,the use of XGBoost with Optuna for hyperparameter tuning to minimize MSE and evaluate with R² score.Includes SHAP explainability to initerpret feature importance.
+
+![Summary Plot](ML modelling/output.png)
+• Hyperparameters are optimized to improve predictive accuracy, while SHAP identifies most impactful features.
+
+### 
+
